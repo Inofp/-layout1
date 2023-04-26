@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout1</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/sass/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper header__wrapper">
+            <div class="header__logo-line">
+                <a href="index.html" class="logo">
+                    <object type="image/svg+xml" data="./src/img/logo.svg" class="logo-object">
+                        Your browser does not support SVG
+                     </object>
+                </a>
+            </div>
+            <div class="header__links">
+                <a href="#nokak" class="header__link">Как это работает</a>
+                <a href="baza.html" class="header__link">База заболеваний</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="promo">
+        <div class="wrapper promo__wrapper">
+            <div class="promo__content">
+                <h1 class="promo__title">«Симптом-чекер»</h1>
+                <p class="promo__text">Проверьте свои симптомы прямо из дома. Это займёт около 10 минут.</p>
+                <div class="promo__buttons">
+                    <a href="" class="wave-btn">
+                        <span class="wave-btn__text">Начать проверку</span>
+                        <span class="wave-btn__waves"></span>
+                    </a>
+                </div>
+            </div>
+            <img class="promo__image" src='./src/img/shut.jpg' alt="">
+        </div>
+    </section>
+
+    <section class="tools">
+        <div class="wrapper tools__wrapper">
+            <div class="layout-4-column tool-container">
+                <div class="tool">
+                    <div class="tool__icon">
+                        <span class="icon-square icon-square_violet">
+                            <span class="ico ico_clock"></span>
+                        </span>
+                    </div>
+                    <h4 class="tool__title">Быстро</h4>
+                    <p class="tool__text">Проверка займёт не более 10 минут.</p>
+                </div>
+                <div class="tool"> 
+                    <div class="tool__icon">
+                        <span class="icon-square icon-square_yellow">
+                            <span class="ico ico_snake"></span>
+                        </span>
+                    </div>
+                    <h4 class="tool__title">Точно</h4>
+                    <p class="tool__text">Пройти тест надежнее самоличного поиска в интернете.</p>
+                </div>
+                <div class="tool">
+                    <div class="tool__icon">
+                        <span class="icon-square icon-square_blue">
+                            <span class="ico ico_dollar"></span>
+                        </span>
+                    </div>
+                    <h4 class="tool__title">Бесплатно</h4>
+                    <p class="tool__text">Результаты будут доступны без всяких оплат.</p>
+                </div>
+                <div class="tool">
+                    <div class="tool__icon">
+                        <span class="icon-square icon-square_red">
+                            <span class="ico ico_heart"></span>
+                        </span>
+                    </div>
+                    <h4 class="tool__title">Свободно</h4>
+                    <p class="tool__text">Никакой регистрации не потребуется.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="how">
+        <a name="nokak"></a>
+        <div class="wrapper">
+            <h2 class="how__title">Как это работает</h2>
+            <p class="how__description">Пользователю предстоит ответить на ряд вопросов касающиеся тревожащих симптомов, на основе которых сервис подберёт список возможных заболеваний и рекомендаций по дальнейшим действиям, всё просто!</p>
+            <div class="layout-3-column how-container">
+                <div class="steps block-shadowed">
+                    <div class="steps__content">
+                        <h5 class="steps__name">Онлайн-опрос по симптомам</h5>
+                        <p class="steps__description">рассказ о симптомах в формате опроса</p>
+                    </div>
+                    <img class="steps__photo" src="./src/img/numbers/1.svg" alt="1">
+                </div>
+                <div class="steps block-shadowed">
+                    <div class="steps__content">
+                        <h5 class="steps__name">Система обрабатывает данные</h5>
+                        <p class="steps__description">сервис подберет наиболее вероятные заболевания исходя из ответов</p>
+                    </div>
+                    <img class="steps__photo" src="./src/img/numbers/2.svg" alt="2">
+                </div>
+                <div class="steps block-shadowed">
+                    <div class="steps__content">
+                        <h5 class="steps__name">Получаете результат</h5>
+                        <p class="steps__description">отчет по итогам анализа, остальное за вами</p>
+                    </div>
+                    <img class="steps__photo" src="./src/img/numbers/3.svg" alt="3">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="article">
+        <div class="wrapper">
+            <h2 class="article__title">Полезные статить для здоровья</h2>
+            <p class="article__description">Дополните свои знания информацией как укрепить здоровье.</p>
+            <div class="layout-3-column strategy-wrapper">
+                <article class="strategy block-shadowed">
+                    <img class="strategy__image" src="./src/img/zdorovy_son.jpg" alt="strategy">
+                    <div class="strategy__content">
+                        <h3 class="strategy__name"><a href="https://www.5gkb.by/patsientam/zdorovyj-obraz-zhizni/khoroshij-son-neobkhodimoe-uslovie-zdorovogo-obraza-zhizni/" target="_blank">Как улучшить свой сон и не просыпаться с болью в голове.</a></h3>
+                    </div>
+                </article>
+                <article class="strategy block-shadowed">
+                    <img class="strategy__image depression" src="./src/img/depres.jpg" alt="strategy">
+                    <div class="strategy__content">
+                        <h3 class="strategy__name"><a href="https://www.dzhmao.ru/info/articles/kak-ponyat-chto-u-tebya-depressiya-i-chto-s-ney-delat/" target="_blank">Как понять что у вас депрессия.</a> </h3>
+                    </div>
+                </article>
+                <article class="strategy block-shadowed">
+                    <img class="strategy__image" src="./src/img/15507441794626725906_1000x669.jpg" alt="strategy">
+                    <div class="strategy__content">
+                        <h3 class="strategy__name"><a href="https://style.rbc.ru/health/5dac0dfa9a79474bc746668c" target="_blank">Сидячий образ жизни: 7 способов двигаться больше</a></h3>
+                    </div>
+                </article>
+                <article class="strategy block-shadowed">
+                    <img class="strategy__image" src="./src/img/e03c325f53b826ab2ae75c5317846842.png" alt="strategy">
+                    <div class="strategy__content">
+                        <h3 class="strategy__name"><a href="https://goodlooker.ru/pravilnoe-pitanie.html" target="_blank">Правильное питание для здоровья.</a></h3>
+                    </div>
+                </article>
+                <article class="strategy block-shadowed">
+                    <img class="strategy__image" src="./src/img/woman-2592247_1280.jpg" alt="strategy">
+                    <div class="strategy__content">
+                        <h3 class="strategy__name"><a href="https://www.37gp.by/informatsiya/sovety-dlya-patsienta/405-beg-vred-ili-polza" target="_blank">Бег вреден или полезен?</a></h3>
+                    </div>
+                </article>
+                <article class="strategy block-shadowed">
+                    <img class="strategy__image" src="./src/img/cot.jpg" alt="strategy">
+                    <div class="strategy__content">
+                        <h3 class="strategy__name"><a href="https://www.37gp.by/informatsiya/sovety-dlya-patsienta/405-beg-vred-ili-polza" target="_blank">Текст</a></h3>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <div class="wrapper footer__wrapper">
+            <div class="footer-navigation layout-3-column">
+                <div class="footer-navigation__column">
+                    <h4 class="footer-navigation__title">Quick Links</h4>
+                    <ul class="footer-navigation__links">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-navigation__column">
+                    <h4 class="footer-navigation__title">Legal Stuff</h4>
+                    <ul class="footer-navigation__links">
+                        <li><a href="#">Disclamer</a></li>
+                        <li><a href="#">Financing</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-navigation__column">
+                    <h4 class="footer-navigation__title">Quick Links</h4>
+                    <ul class="footer-navigation__links">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="light-wave"></div>
+            </div>
+        </div>
+    </footer>
+
+
+    
+</body>
+</html>
